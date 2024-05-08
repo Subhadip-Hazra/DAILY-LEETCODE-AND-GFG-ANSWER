@@ -82,8 +82,8 @@ we have to traverse all nodes so the time complexity is O(n)
 the space complexity is also O(n), same we have to traverse all nodes.
 
 ## DISCUSSION
-So, what question is do we have to store all depth-wise node values in a list for every every different depth we have to store the values in a different list 
-and in the final result, we have to store all the lists in one list and that will be the final result.
+So, what question is do we have to store all depth-wise node values in a list for every different depth we have to store the values in a different list 
+and after visiting the full depth the depth list we have to store in the final result, when all depth traverse will be complete then we have to return the final list.
 
 ## APPROACH
 There are many approaches but we discuss about the Recursive approach
